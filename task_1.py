@@ -79,7 +79,7 @@ def merge_sorted_lists(a: SinglyLinkedList, b: SinglyLinkedList) -> SinglyLinked
     out.head = dummy.next
     return out
 
-# приклад використання, відтворює мінімальні перевірки з критеріїв
+# приклад використання
 if __name__ == "__main__":
     # створюємо список і реверсуємо
     lst = SinglyLinkedList.from_iterable([5, 1, 4, 2, 3])
